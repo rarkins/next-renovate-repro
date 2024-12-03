@@ -6,6 +6,7 @@
   "enabledManagers": [
     "npm"
   ],
+  "extends": [":semanticCommitsDisabled"],
   "packageRules": [
       {
       "matchDatasources": ["npm"],
