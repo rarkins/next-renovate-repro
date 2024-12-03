@@ -4,7 +4,7 @@
     "config:recommended"
   ],
   "enabledManagers": [
-    "npm",
+    "npm"
   ],
   "packageRules": [
       {
@@ -13,7 +13,7 @@
       "matchUpdateTypes": ["digest", "pin", "patch", "minor"],
       "minimumReleaseAge": "3 days",
       "groupName": "frontend",
-      "commitMessage": "[RENOVATE] Update FE dependencies",
+      "commitMessage": "[RENOVATE] Update FE dependencies"
     },
     {
       "matchDatasources": ["npm"],
@@ -21,7 +21,7 @@
       "matchUpdateTypes": ["major"],
       "minimumReleaseAge": "3 days",
       "groupName": "frontend_major",
-      "commitMessage": "[RENOVATE] Update FE major dependencies",
+      "commitMessage": "[RENOVATE] Update FE major dependencies"
     }
   ]
 }
