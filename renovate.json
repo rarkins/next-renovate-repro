@@ -22,7 +22,10 @@
       "matchUpdateTypes": ["major"],
       "minimumReleaseAge": "3 days",
       "groupName": "frontend_major",
-      "commitMessage": "[RENOVATE] Update FE major dependencies"
+      "commitMessagePrefix": "[RENOVATE]",
+      "commitMessageTopic": "FE major dependencies",
+      "commitMessageExtra": "",
+      "commitMessageSuffix": "",
     }
   ]
 }
