@@ -25,7 +25,7 @@
       "commitMessagePrefix": "[RENOVATE]",
       "commitMessageTopic": "FE major dependencies",
       "commitMessageExtra": "",
-      "commitMessageSuffix": "",
+      "commitMessageSuffix": ""
     }
   ]
 }
