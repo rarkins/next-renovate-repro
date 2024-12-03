@@ -2,5 +2,26 @@
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
   "extends": [
     "config:recommended"
+  ],
+  "enabledManagers": [
+    "npm",
+  ],
+  "packageRules": [
+      {
+      "matchDatasources": ["npm"],
+      "matchPackageNames": ["*"],
+      "matchUpdateTypes": ["digest", "pin", "patch", "minor"],
+      "minimumReleaseAge": "3 days",
+      "groupName": "frontend",
+      "commitMessage": "[RENOVATE] Update FE dependencies",
+    },
+    {
+      "matchDatasources": ["npm"],
+      "matchPackageNames": ["*"],
+      "matchUpdateTypes": ["major"],
+      "minimumReleaseAge": "3 days",
+      "groupName": "frontend_major",
+      "commitMessage": "[RENOVATE] Update FE major dependencies",
+    }
   ]
 }
