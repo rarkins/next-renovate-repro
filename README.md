@@ -9,13 +9,11 @@ The title is wrong however; it seems to pull the name from the value of `group_n
 
 ## Current behavior
 
-PR title does not match what is specified in `commitMessageSuffix`, `commitMessageTopic` and
-instead the PR title is equal to the `group_name` of the `packageMatcher`.
-It does take the value from `commitMessagePrefix` though.
+Major dependency PR title is: "[RENOVATE] Update frontend_major".
 
 ## Expected behavior
 
-PR title should match what is configured in `commitMessagePrefix`, `commitMessageSuffix`, `commitMessageTopic` etc.
+Major dependency PR title should be: "[RENOVATE] Update FE major dependencies".
 
 ## Link to the Renovate issue or Discussion
 
