@@ -9,7 +9,7 @@ The title is wrong however; it seems to pull the name from the value of `group_n
 
 ## Current behavior
 
-Major dependency PR title is: "[RENOVATE] Update frontend_major".
+Major dependency PR title is: "[RENOVATE] Update frontend_major (major)".
 
 ## Expected behavior
 
