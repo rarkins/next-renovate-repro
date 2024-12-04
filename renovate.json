@@ -17,10 +17,12 @@
       "matchPackageNames": ["*"],
       "matchUpdateTypes": ["major"],
       "groupName": "frontend_major",
-      "commitMessagePrefix": "[RENOVATE]",
-      "commitMessageTopic": "FE major dependencies",
-      "commitMessageExtra": "",
-      "commitMessageSuffix": ""
+      "group": {
+        "commitMessagePrefix": "[RENOVATE]",
+        "commitMessageTopic": "FE major dependencies",
+        "commitMessageExtra": "",
+        "commitMessageSuffix": ""
+      }
     }
   ]
 }
