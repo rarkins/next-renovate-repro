@@ -1,14 +1,11 @@
 # Renovate minimal reproduction
 
-Hi, we want to customized the renovate PR titles which is done by customizing
-the commit message which is used for the PR title. Since commitMessage is deprecated
-we want to move to commitMessagePrefix, commitMessageTopic, commitMessageSuffix etc.
-However, even though we have set those values accordingly, they are not used for
-the PR title; instead the group_name value of the packageMatcher is used.
+The repo contains two PRs one for minor npm upgrades and one for major npm
+upgrades. The **minor** PR uses the old config option of `commitMessage` which
+is deprecated. This is what we want the PR titles to look like.
 
-There is one open PR which uses the group_name in the title, not what is
-configured in the config. Also, if you check the commit message it seems to
-include the right values, but they are all in lower case.
+The **major** PR is using the new config options of `commitMessage{Prefix,Topic,Extra,Suffix}`.
+The title is wrong however; it seems to pull the name from the value of `group_name`.
 
 ## Current behavior
 
