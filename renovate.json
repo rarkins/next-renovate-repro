@@ -3,16 +3,12 @@
   "extends": [
     "config:recommended"
   ],
-  "enabledManagers": [
-    "npm"
-  ],
   "extends": [":semanticCommitsDisabled"],
   "packageRules": [
       {
       "matchDatasources": ["npm"],
       "matchPackageNames": ["*"],
       "matchUpdateTypes": ["digest", "pin", "patch", "minor"],
-      "minimumReleaseAge": "3 days",
       "groupName": "frontend",
       "commitMessage": "[RENOVATE] Update FE dependencies"
     },
@@ -20,7 +16,6 @@
       "matchDatasources": ["npm"],
       "matchPackageNames": ["*"],
       "matchUpdateTypes": ["major"],
-      "minimumReleaseAge": "3 days",
       "groupName": "frontend_major",
       "commitMessagePrefix": "[RENOVATE]",
       "commitMessageTopic": "FE major dependencies",
